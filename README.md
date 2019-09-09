@@ -15,19 +15,19 @@ A 2-Dimensional maze game made with Java programming language
 You must have MySQL server running on your machine
 ```
 1. You can start off by installing XAMPP from <a href="https://www.apachefriends.org/download.html">Here</a>
-1. After having it installed, you may open XAMPP control panel and run Apache and MySQL modules
-1. Open any web browser and go to http://localhost/phpmyadmin/
-1. Create a new Database and name it 'runnu'
-1. Run <a href="https://github.com/Tyndallray/Runnu/blob/master/runnu.sql">this</a> SQL Script to create the tables that you will need for the game inside runnu database that you just created
-1. Your Database is ready!
+2. After having it installed, you may open XAMPP control panel and run Apache and MySQL modules
+3. Open any web browser and go to http://localhost/phpmyadmin/
+4. Create a new Database and name it 'runnu'
+5. Run <a href="https://github.com/Tyndallray/Runnu/blob/master/runnu.sql">this</a> SQL Script to create the tables that you will need for the game inside runnu database that you just created
+6. Your Database is ready!
 ```
 
 Now it is time to make sure you have JDK installed. Because I had this project made a very long time ago, I believe I was using JDK 9 for it.
 You may skip this part if you already have JDK installed [NOTE: If you might face any problems with the compilation, try to follow the steps]
 ```
-2. Install an JDK 9 (outdated) version of JDK from <a href="https://www.oracle.com/java/technologies/java-archive-javase9-downloads.html">here</a>
+1. Install an JDK 9 (outdated) version of JDK from <a href="https://www.oracle.com/java/technologies/java-archive-javase9-downloads.html">here</a>
 2. Set your path variable to have *JDK-9.x.x/bin* value in it [NOTE: Make sure you don't have any other JDKs already set to your path variable to avoid ambiguity]
-2. You should be good to go!
+3. You should be good to go!
 ```
 <br/>
 
@@ -35,10 +35,10 @@ You may skip this part if you already have JDK installed [NOTE: If you might fac
 
 Finally, after having your database set up and JDK installed
 ```
-3. Open Command prompt, and navigate to the project's root folder, i.e, */Runnu/*
-3. Hit the following command to compile the code: javac *.java
+1. Open Command prompt, and navigate to the project's root folder, i.e, */Runnu/*
+2. Hit the following command to compile the code: javac *.java
 3. Followed by this command to run the game: java -cp .;mysql-connector-java-5.1.48-bin.jar gameLaunch
-3. I hope you like the game!
+4. I hope you like the game!
 ```
 
 <img src="https://github.com/Tyndallray/Runnu/blob/master/res/runnu.gif" width="100%">
