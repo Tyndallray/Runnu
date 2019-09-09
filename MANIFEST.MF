@@ -1,0 +1,3 @@
+Main-Class: gameLaunch 
+Version: 0.1
+Author: DJS
