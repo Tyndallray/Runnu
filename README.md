@@ -1,4 +1,4 @@
-# Runnu - 2014
+# Runnu 2016-2017
 A 2-Dimensional maze game made with Java programming language
 
 <img src="https://github.com/Tyndallray/Runnu/blob/master/res/Poster.png" alt="alt text" style="width:200;height:200">
@@ -14,24 +14,29 @@ A 2-Dimensional maze game made with Java programming language
 
 You must have MySQL server running on your machine
 ```
-1. You can start off by installing XAMPP from [here](https://www.apachefriends.org/download.html)
+1. You can start off by installing XAMPP from (https://www.apachefriends.org/download.html)
 2. After having it installed, you may open XAMPP control panel and run Apache and MySQL modules
 3. Open any web browser and go to http://localhost/phpmyadmin/
 4. Create a new Database and name it 'runnu'
-5. Run [this](https://github.com/Tyndallray/Runnu/blob/master/runnu.sql) SQL Script to create the tables that you will need for the game inside runnu database that you just created
+5. Run (https://github.com/Tyndallray/Runnu/blob/master/runnu.sql) SQL Script to create the tables that you will need for the game inside runnu database that you just created
 6. Your Database is ready!
 ```
 
 Now it is time to make sure you have JDK installed. Because I had this project made a very long time ago, I believe I was using JDK 9 for it.
 You may skip this part if you already have JDK installed [NOTE: If you might face any problems with the compilation, try to follow the steps]
 ```
-1. Install an JDK 9 (outdated) version of JDK from [Here](https://www.oracle.com/java/technologies/java-archive-javase9-downloads.html)
+1. Install an JDK 9 (outdated) version of JDK from (https://www.oracle.com/java/technologies/java-archive-javase9-downloads.html)
 2. Set your path variable to have *JDK-9.x.x/bin* value in it [NOTE: Make sure you don't have any other JDKs already set to your path variable to avoid ambiguity]
 3. You should be good to go!
 ```
 <br/>
 
 # Play Time!
+
+## Instructions
+   * Use Arrow Keys to move around
+   * Use W,S,A,D to unlock doors and gather resources on the map
+   * Use 'i' to toggle inventory
 
 Finally, after having your database set up and JDK installed
 ```
