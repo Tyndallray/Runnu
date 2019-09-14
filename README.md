@@ -1,4 +1,4 @@
-# Runnu 2016-2017
+# Runnu
 A 2-Dimensional maze game made with Java programming language
 
 <img src="https://github.com/Tyndallray/Runnu/blob/master/res/Poster.png" alt="alt text" style="width:200;height:200">
@@ -52,7 +52,7 @@ Finally, after having your database set up and JDK installed
 
 ## Author
 
-* **Tyndallray**
+* **Devesh Vasnani**
     * **Github** - (https://github.com/Tyndallray)
 
 ## Licence
